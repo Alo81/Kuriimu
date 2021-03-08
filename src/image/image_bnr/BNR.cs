@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
-using CeteraDS.Hash;
 using Kontract.Image;
 using Kontract.Image.Format;
 using Kontract.Image.Swizzle;
@@ -55,7 +54,7 @@ namespace image_bnr
                 result.AddRange(tileData);
                 result.AddRange(paletteData);
                 result.AddRange(titleInfo);
-                var crc16 = Crc16.Create(result.ToArray());
+                var crc16 = 0;
                 header.crc16 = (ushort)crc16;
 
                 bw.WriteStruct(header);

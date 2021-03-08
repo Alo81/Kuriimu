@@ -36,6 +36,6 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 
 // Use this when you apply git tags like "0.1.0" to automatically keep up with the version
-[assembly: AssemblyVersion("1.0.14.2118")]
-[assembly: AssemblyFileVersion("1.0.14.2118")]
-[assembly: AssemblyInformationalVersion("1.0.14-b6964236")]
+[assembly: AssemblyVersion("1.0.15.2131")]
+[assembly: AssemblyFileVersion("1.0.15.2131")]
+[assembly: AssemblyInformationalVersion("1.0.15-3f05ffc9")]

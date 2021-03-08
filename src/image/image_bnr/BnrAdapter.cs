@@ -4,7 +4,6 @@ using System.ComponentModel;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using CeteraDS.Hash;
 using Kontract.IO;
 using Kontract.Interface;
 
@@ -43,7 +42,7 @@ namespace image_bnr
 
                 try
                 {
-                    return Crc16.Create(br.ReadBytes(0x820)) == crc16;
+                    return false;
                 }
                 catch (Exception) { }
 
